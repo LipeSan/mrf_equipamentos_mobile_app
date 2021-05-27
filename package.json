@@ -1,0 +1,72 @@
+{
+  "name": "mrf_equipamentos_mobile_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "env:testing": "node scripts/set-environment.js testing",
+    "env:prod": "node scripts/set-environment.js production",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/datetimepicker": "^3.0.8",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.2",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "axios": "^0.21.0",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-dom": "^17.0.1",
+    "react-native": "0.64.0",
+    "react-native-date-picker": "^3.2.10",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-image-crop-picker": "^0.36.2",
+    "react-native-loading-spinner-overlay": "^2.0.0",
+    "react-native-paper": "^4.8.1",
+    "react-native-reanimated": "^1.13.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-swiper": "^1.6.0",
+    "react-native-toast-message": "^1.4.9",
+    "react-native-wheel-pick": "^1.1.0",
+    "styled-components": "^5.2.1",
+    "styled-icons": "^10.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/react-native": "^0.64.0",
+    "@types/react-native-loading-spinner-overlay": "^0.5.2",
+    "@types/react-native-wheel-pick": "^1.1.1",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
